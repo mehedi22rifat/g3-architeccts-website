@@ -181,6 +181,62 @@ main{
     line-height: normal;
 }
 
+/* features relates style */
+.features{
+    display:flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+.features-title{
+    color: var(--Dark-01, #131313);
+   font-size: 2.5rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+.class-features-descraption{
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.features-content .card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 50px;
+    padding: 30px;
+   
+}
+
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    width:320px;
+    padding:20px 40px; 
+}
+
+.ten-years-badge h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 107.692% */
+}
+.ten-years-badge p{
+    text-align: center;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
 /* spnsore style */
 
 .sponspos{
